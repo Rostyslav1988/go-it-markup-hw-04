@@ -13,9 +13,7 @@
     --back-ground: #C4C4C4;
     --fill: #AFB1B8;
 }
-path {
-    fill: #757575;
-}
+
 ul {
     margin-left: 0;
     padding-left: 0;
@@ -168,6 +166,7 @@ ul {
     letter-spacing: 0.02em;
     color: var(--color-second-text);
     font-style: normal;
+    fill: var(--color-second-text);
 }
   
 
@@ -179,9 +178,7 @@ ul {
 .mail-link:focus {
     fill: var(--focus-color);
 }
-.tel-link svg:hover {
-  fill: var(--focus-color);
-}
+
 .tel-link {
 display: flex;
 justify-content: center;
@@ -193,6 +190,7 @@ letter-spacing: 0.02em;
 color: var(--color-second-text);
 margin-left: 30px;
 font-style: normal;
+fill: var(--color-second-text);
 }
 .tel-link:hover,
 .tel-link:focus {
