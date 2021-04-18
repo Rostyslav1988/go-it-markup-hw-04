@@ -13,6 +13,9 @@
     --back-ground: #C4C4C4;
     --fill: #AFB1B8;
 }
+path {
+    fill: #757575;
+}
 ul {
     margin-left: 0;
     padding-left: 0;
@@ -58,14 +61,22 @@ ul {
     justify-content: center;
     align-items: center;
     margin-right: 10px;
-    fill: #757575;
+
 }
+.mail-link svg:hover {
+    fill: var(--focus-color);
+    color: #2196F3;
+}
+
 .contacts {
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
-
+.contacts a:hover {
+    fill: #2196F3;
+    transition: 250ms;
+}
 .header .container {
 
         display: flex;
@@ -117,9 +128,6 @@ ul {
     padding-top: 25px;
     
 }
-.contacts a:hover {
-    fill: var(--focus-color);
-}
 
 .social-section {
     display: flex;
@@ -146,6 +154,10 @@ ul {
 .b-radius:focus {
     background: var(--focus-color);
 }
+.contacts a:hover {
+    fill: #2196F3;
+    transition: 250ms;
+}
 .mail-link {
     display: flex;
     justify-content: center;
@@ -157,16 +169,18 @@ ul {
     color: var(--color-second-text);
     font-style: normal;
 }
+  
+
 .mail-link:hover,
 .mail-link:focus {
     color: var(--focus-color);
-
 }
-
 .mail-link:hover,
 .mail-link:focus {
     fill: var(--focus-color);
-
+}
+.tel-link svg:hover {
+  fill: var(--focus-color);
 }
 .tel-link {
 display: flex;
@@ -510,13 +524,6 @@ a {
     align-items: center;
 }
 
-.contacts {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-
 .nav-item:not(:last-child) {
     margin-right: 50px;
 }
@@ -541,20 +548,8 @@ a {
 .navigation-link:focus {
     color: var(--focus-color);
 }
-.mail-link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--color-second-text);
-    font-style: normal;
-}
-.mail-link:hover,
-.mail-link:focus {
-    color: var(--focus-color);
 
 
-}
 .tel-link {
     font-weight: 500;
     font-size: 14px;
@@ -748,33 +743,11 @@ border-radius: 4px;
 }
 
 
-.contacts {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-.mail-link:hover,
-.mail-link:focus {
-    color: var(--focus-color);
-
-}
-
-.mail-link:hover,
-.mail-link:focus {
-    fill: var(--focus-color);
-
-}
-
 .tel-link:hover,
 .tel-link:focus {
     color: var(--focus-color);
     text-decoration: none;
 
-}
-.contacts a:hover {
-    fill: var(--focus-color);
-    transition: 250ms;
 }
 
 .social--section {
@@ -894,6 +867,7 @@ transition: 0.5s;
     box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
     border-radius: 4px;
     margin-top: 40px;
+    cursor: pointer;
 }
 
 .bord-clents {
@@ -941,10 +915,6 @@ transition: 0.5s;
 .icon-sec-red {
     padding-top: 25px; 
 }
-.contacts a:hover {
-    fill: var(--focus-color);
-
-}
 
 
 .b-radius {
@@ -975,18 +945,10 @@ transition: 0.5s;
     letter-spacing: 0.02em;
     color: var(--color-second-text);
     font-style: normal;
-}
-.mail-link:hover,
-.mail-link:focus {
-    color: var(--focus-color);
-    text-decoration: none;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
-.mail-link:hover,
-.mail-link:focus {
-    fill: var(--focus-color);
-    text-decoration: none;
-}
 .tel-link {
 display: flex;
 justify-content: center;
@@ -1199,6 +1161,7 @@ transition: 0.5s;
     color: rgba(255, 255, 255, 0.6);
 
 }
+
 .tel-footer {
     font-weight: 400;
     font-size: 14px;
