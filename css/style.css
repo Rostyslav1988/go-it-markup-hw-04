@@ -218,16 +218,11 @@ fill: var(--color-second-text);
     justify-content: center;
     align-items: center;
     background-image: url(../image/Img.png);
-    width: 1600px;
+    max-width: 1600px;
     background-repeat: no-repeat;
     height: 600px;
     background-size: cover;
-    justify-content: space-between;
     margin: 0 auto;
-
-    padding-top: 200px;
-    padding-bottom: 200px;
-    
 }
 .top-title {
     font-weight: 900;
@@ -983,20 +978,6 @@ font-style: normal;
     margin: 0 auto;
     text-align: center;
 }
-.sect {
-    background: var(--back-ground);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../image/Img.png);
-    width: 1600px;
-    background-repeat: no-repeat;
-    height: 600px;
-    background-size: cover;
-    justify-content: space-between;
-    margin: 0 auto;
-}
-
 
 .bord-clents:hover,
 .bord-clents:focus {
