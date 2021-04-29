@@ -219,15 +219,21 @@ fill: var(--color-second-text);
     display: flex;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     background-image: linear-gradient(rgba(47,48,58,0.4), rgba(47,48,58,0.4)),url(../image/Img.png);
+=======
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/Img.png);
+>>>>>>> 493624c240c007a0ab231604a2aea75a77d92ef9
     max-width: 1600px;
     background-repeat: no-repeat;
     height: 600px;
     background-size: cover;
-    justify-content: space-between;
     margin: 0 auto;
+<<<<<<< HEAD
     padding-top: 200px;
     padding-bottom: 200px;
+=======
+>>>>>>> 493624c240c007a0ab231604a2aea75a77d92ef9
 }
 
 .hiro-text {
@@ -960,7 +966,10 @@ font-style: normal;
 .hiro-cover {
     text-align: center;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 493624c240c007a0ab231604a2aea75a77d92ef9
 
 .bord-clents:hover,
 .bord-clents:focus {
