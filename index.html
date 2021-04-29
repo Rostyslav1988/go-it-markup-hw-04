@@ -43,16 +43,15 @@
     </header>
 <main>
     <!--SECTION 1-->
-<section class="sect">
-    <div class="bord-padding container">
-    <h1 class="top-title">Эффективные решения для вашего бизнеса</h1>
+<section class="hiro">
+    <div class="hiro-cover container">
+    <h1 class="hiro-text">Эффективные решения для вашего бизнеса</h1>
 
-    <button class="btn" type="button">Заказать услугу</button>
-
+    <button class="hiro-btn" type="button" data-modal-open>Заказать услугу</button>
     </div>
 </section>
     <!--SECTION 2-->
-<section class="section-two">
+<section class="ditail">
     <div class="container">
     <ul class="features-title">
 
@@ -109,15 +108,20 @@
     <div class="container">
     <h2 class="top-work">Чем мы занимаемся</h2>
     <ul class="pic">
-        <li class="img"><img src="./image/box-1.jpg" alt="Na Computere" width="370" height="294"></li>
-        <li class="img"><img src="./image/box-2.jpg" alt="V telephone" width="370" height="294"></li>
-        <li class="img"><img src="./image/box-3.jpg" alt="V Planshete" width="370" height="294"></li>
+        <li class="img"><img src="./image/box-1.jpg" alt="Na Computere" width="370" height="294">
+            <p class="overlay">Десктопные приложения</p> </li>
+        <li class="img"><img src="./image/box-2.jpg" alt="V telephone" width="370" height="294">
+            <p class="overlay">Мобильные приложения</p>
+        </li>
+        <li class="img"><img src="./image/box-3.jpg" alt="V Planshete" width="370" height="294">
+            <p class="overlay">Дизайнерские решения</p>
+        </li>
     </ul>
 </div>
 </section>
         <!--SECTION 4-->
-<section class="top-container">
-    <div class="container" >
+<section class="top-container padding-footer">
+    <div class="container padding-for" >
     <h2 class="comand">Наша команда</h2>
     <ul class="our-comand">
         <li class="cover"> 
@@ -291,7 +295,7 @@
     </div>
 </section>
 
-<section class=" pad-clients">
+<section class=" padding-for-section">
     <div class="container">
         <h2 class="comand">Постоянные клиенты</h2>
         <ul class="clients-end">
@@ -408,8 +412,19 @@
                     </a>   
                 </li>
         </ul>
-     
     </div>
 </footer>
+
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button type="button" class="btn-close" data-modal-close>
+            <svg class="button-button" Width="11" height="11">
+                <use href="./image/sprite.svg#icon-close-black"></use>
+            </svg>  
+        </button>
+    </div>
+</div>
+
+<script src="./js/modal.js"></script>
 </body>
 </html>
